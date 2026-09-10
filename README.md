@@ -18,7 +18,13 @@ OUTPUT:
 ![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/c8d87ec9e5d0257c74d1e4c0f979da321dc2a056/easy_1.png)
 
 
-2. Second Largest Distinct Element
+<html>
+  <head>
+    <body
+      ><h1> 2. Second Largest Distinct Element </h1>
+    </body>
+  </head>
+</html>
 
 Sorting and grabbing the second-from-last unique value works, but it's O(n log n) for something a single pass can do.
 
@@ -33,7 +39,13 @@ The duplicate check matters — without it, `[7, 7]` would wrongly look like it 
 **Complexity:** O(n) time, O(1) space.
 
 
-3. Subarray Sum Equals K
+<html>
+  <head>
+    <body
+      ><h1> 3. Subarray Sum Equals K </h1>
+    </body>
+  </head>
+</html>
 
 The array can have negatives, which rules out a sliding window (it only works when the sum grows monotonically as the window expands). So this needs prefix sums + a hashmap instead.
 
