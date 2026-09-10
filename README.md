@@ -1,4 +1,10 @@
-1. Balanced Brackets
+<html>
+  <head>
+    <body
+      ><h1> 1. Balanced Brackets </h1>
+    </body>
+  </head>
+</html>
 
 Brackets close in the reverse order they open — that's a stack (LIFO), basically by definition.
 
@@ -7,6 +13,9 @@ Push every opening bracket. On a closing bracket, check the top of the stack: if
 Counting bracket types instead wouldn't work — `([)]` has balanced counts but wrong order. The stack is what actually enforces "last opened, first closed."
 
 **Complexity:** O(n) time, O(n) space worst case.
+
+OUTPUT:
+![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/c8d87ec9e5d0257c74d1e4c0f979da321dc2a056/easy_1.png)
 
 
 2. Second Largest Distinct Element
