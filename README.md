@@ -38,6 +38,9 @@ The duplicate check matters — without it, `[7, 7]` would wrongly look like it 
 
 **Complexity:** O(n) time, O(1) space.
 
+OUTPUT:
+![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/main/README.md)
+
 
 <html>
   <head>
@@ -57,8 +60,5 @@ Important detail: seed the hashmap with `{0: 1}` before starting, or subarrays s
 
 **Complexity:** O(n) time, O(n) space worst case.
 
----
-
-## General notes
-
-Same underlying pattern each time: figure out what you'd need to know in O(1) at each position, then pick a structure to maintain it while scanning — a stack, two tracking variables, a hashmap. Once framed that way, none of these need brute-force nested loops.
+OUTPUT:
+![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/08207b523b0691970e2236414eb1240176005b32/medium_1.png)
