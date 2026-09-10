@@ -39,7 +39,7 @@ The duplicate check matters — without it, `[7, 7]` would wrongly look like it 
 **Complexity:** O(n) time, O(1) space.
 
 OUTPUT:
-![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/main/README.md)
+![image alt](https://github.com/GovindGaur-2006/TJ-Tasks-2026-Govind_Gaur/blob/4b495ff992737a96c0a2493e57c86d3a69010e3f/easy_2.png)
 
 
 <html>
